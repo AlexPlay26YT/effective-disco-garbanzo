@@ -120,10 +120,12 @@ referencias = {
     """,
     "Rollwage, M. et al. (2023)": """
         **Resumen:** En este estudio, examinamos si las soluciones digitales basadas en inteligencia artificial (IA) pueden ayudar a los profesionales de la salud mental a utilizar su tiempo de manera más eficiente y, de este modo, reducir la presión sobre los servicios y mejorar los resultados de los pacientes.
+        
         Nuestros resultados enfatizan la utilidad del empleo de soluciones de IA para brindar soporte al personal de salud mental, destacando además el potencial de estas herramientas para incrementar la eficiencia en la prestación de cuidados y mejorar los resultados clínicos de los pacientes.
     """,
     "Rauf, M. et al. (2025)": """
         **Resumen:** Los psicólogos clínicos han reportado que la IA parece poseer una capacidad prometedora para mejorar los procesos diagnósticos y los enfoques terapéuticos individualizados. El propósito de esta investigación es explorar la perspectiva de los profesionales de la salud mental sobre cómo la IA puede incrementar la precisión diagnóstica y las formas en que diversos pacientes podrían beneficiarse de sus aplicaciones.
+        
         El objetivo de la investigación se centrará en desvelar lo siguiente: el nivel de conocimiento actual de los profesionales de la salud mental sobre la IA, el grado en que estos profesionales consideran que la IA es útil y los factores clave que podrían influir en su adopción por parte de este colectivo.
     """,
     "de la Fuente Tambo & Armayones Ruiz (2025)": """
@@ -134,6 +136,7 @@ referencias = {
     """,
     "Gual-Montolio, P. et al. (2022)": """
         **Resumen:** Los trastornos emocionales son los trastornos mentales más comunes a nivel mundial. Se ha comprobado que los tratamientos psicológicos son útiles en un número significativo de casos; sin embargo, hasta el 40% de los pacientes no responde a la psicoterapia según lo esperado. Los métodos de inteligencia artificial (IA) podrían optimizar la psicoterapia al proporcionar a terapeutas y pacientes recomendaciones en tiempo real, o casi en tiempo real, basadas en la respuesta del paciente al tratamiento.
+        
         El objetivo de esta investigación es revisar sistemáticamente la evidencia sobre el uso de métodos basados en IA para mejorar los resultados en las intervenciones psicológicas en tiempo real o casi en tiempo real.
     """,
     "Rony, M. K. K. et al. (2025)": """
@@ -142,14 +145,17 @@ referencias = {
     """,
     "Rebelo, A. D. et al. (2023)": """
         **Resumen:** Los psicólogos clínicos han reportado que la IA parece poseer una capacidad prometedora para mejorar los procesos diagnósticos y los enfoques terapéuticos individualizados. El propósito de esta investigación es explorar la perspectiva de los profesionales de la salud mental sobre cómo la IA puede incrementar la precisión diagnóstica y las formas en que diversos pacientes podrían beneficiarse de sus aplicaciones.
+        
         El objetivo de la investigación se centrará en desvelar lo siguiente: el nivel de conocimiento actual de los profesionales de la salud mental sobre la IA, el grado en que estos profesionales consideran que la IA es útil y los factores clave que podrían influir en su adopción por parte de este colectivo.
     """,
     "Cruz-Gonzalez, P. et al. (2025)": """
         **Resumen:** Recientemente, la inteligencia artificial (IA) se ha aplicado a diversos trastornos de salud mental y ámbitos sanitarios. Esta revisión sistemática presenta la aplicación de la IA en la salud mental en los dominios de diagnóstico, monitoreo e intervención.
+        
         Las herramientas de IA demostraron ser precisas en la detección, clasificación y predicción del riesgo de afecciones de salud mental, así como en la predicción de la respuesta al tratamiento y el monitoreo del pronóstico continuo de los trastornos mentales.
     """,
     "Pacheco, C. R. & Scheeringa, M. S. (2022)": """
         **Resumen:** Los clínicos de salud mental realizan tareas complejas con los pacientes que, potencialmente, podrían mejorar gracias a la enorme capacidad de procesamiento disponible a través de las aplicaciones móviles. Este estudio tuvo como objetivo analizar las aplicaciones (apps) para móviles y ordenadores disponibles comercialmente y centradas en el tratamiento de trastornos psiquiátricos.
+        
         Los resultados muestran que estos cuatro elementos clínicos pueden potenciarse significativamente; sin embargo, el pleno potencial del procesamiento informático parece aún no alcanzado en las aplicaciones relacionadas con la salud mental.
     """
 }
