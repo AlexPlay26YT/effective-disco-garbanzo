@@ -121,11 +121,59 @@ with st.container(border=True): # El parámetro border=True crea el recuadro red
     * **Sesgos algorítmicos:** Es vital asegurar que los algoritmos no hereden prejuicios y funcionen igual de bien para todas las personas.
     """)
 
-# --- SECCIÓN DE REFERENCIAS (Mantenemos tu lógica original) ---
+# --- SECCIÓN DE REFERENCIAS ---
 st.write("---")
 st.subheader("📚 Referencias Bibliográficas")
 
-# ... (Aquí va tu diccionario de referencias y el selectbox que ya tenías)
-referencias = { "Ejemplo": "Resumen..." } # Simplificado para el ejemplo
-seleccion = st.selectbox("Selecciona un artículo:", list(referencias.keys()))
-if seleccion: st.info(referencias[seleccion])
+referencias = {
+    "Graham, S. et al. (2019) - AI for Mental Health": """
+        **Resumen:** La tecnología de la inteligencia artificial (IA) representa tanto una gran promesa para transformar la atención a la salud mental como posibles riesgos. 
+        Este artículo ofrece una visión general de la IA y sus aplicaciones actuales en la salud, sugiriendo que puede ayudar a redefinir las enfermedades mentales 
+        de manera más objetiva que el DSM-5 e identificarlas en etapas tempranas.
+    """,
+    "Rollwage, M. et al. (2023) - Conversational AI Efficiency": """
+        **Resumen:** Este estudio examina cómo las soluciones digitales basadas en IA ayudan a los profesionales a usar su tiempo de manera más eficiente, 
+        reduciendo la presión sobre los servicios y mejorando los resultados clínicos de los pacientes en el mundo real.
+    """,
+    "Rauf, M. et al. (2025) - Integrating AI in Clinical Psychology": """
+        **Resumen:** Explora la perspectiva de los profesionales sobre cómo la IA incrementa la precisión diagnóstica. Se centra en desvelar el nivel de conocimiento 
+        actual de los psicólogos sobre la IA y los factores que influyen en su adopción.
+    """,
+    "de la Fuente Tambo & Armayones Ruiz (2025) - La IA en la Práctica Psicológica": """
+        **Resumen:** Revisión de 12 herramientas de IA disponibles en psicología asistencial. Concluye que, aunque no todas cumplen con criterios de seguridad, 
+        existen opciones establecidas que ayudan en tareas administrativas permitiendo al terapeuta centrarse en casos complejos.
+    """,
+    "Beg, M. J. et al. (2025) - AI for Psychotherapy Review": """
+        **Resumen:** Revisión narrativa sobre aplicaciones de IA en psicoterapia, centrándose en trastornos depresivos y de ansiedad. 
+        Analiza mecanismos de eficacia y las persistentes preocupaciones éticas sobre su integración.
+    """,
+    "Gual-Montolio, P. et al. (2022) - AI for Emotional Problems": """
+        **Resumen:** Revisión sistemática sobre el uso de IA para proporcionar recomendaciones en tiempo real basadas en la respuesta del paciente. 
+        Busca optimizar el tratamiento para ese 40% de pacientes que no responden a la terapia tradicional.
+    """,
+    "Rony, M. K. K. et al. (2025) - AI in Psychiatry Systematic Review": """
+        **Resumen:** Meta-análisis que evalúa la precisión diagnóstica y eficacia terapéutica de la IA en psiquiatría, 
+        ofreciendo soluciones innovadoras al solapamiento de síntomas y la necesidad de personalización.
+    """,
+    "Rebelo, A. D. et al. (2023) - Impact on Mental Healthcare Workers": """
+        **Resumen:** Explora cómo la IA mejora los procesos diagnósticos y los enfoques personalizados desde la perspectiva del trabajador de salud mental 
+        y su utilidad en la práctica diaria.
+    """,
+    "Cruz-Gonzalez, P. et al. (2025) - AI in Diagnosis and Monitoring": """
+        **Resumen:** Revisión sistemática que demuestra la precisión de las herramientas de IA en la detección, clasificación y predicción de riesgos, 
+        así como en el monitoreo del pronóstico continuo de trastornos mentales.
+    """,
+    "Pacheco, C. R. & Scheeringa, M. S. (2022) - Clinical Wisdom in App Age": """
+        **Resumen:** Analiza aplicaciones móviles comerciales para trastornos psiquiátricos. Concluye que cuatro funciones clínicas clave pueden 
+        potenciarse significativamente, aunque el pleno potencial de procesamiento aún no se ha alcanzado.
+    """
+}
+
+# Selector de referencias
+seleccion = st.selectbox("Selecciona un artículo para ver su resumen:", list(referencias.keys()))
+
+if seleccion:
+    st.info(referencias[seleccion])
+
+# Footer
+st.markdown("<br><p style='text-align: center; color: #9CA3AF;'>Dashboard de Divulgación Científica - 2026</p>", unsafe_allow_html=True)
